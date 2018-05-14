@@ -1,0 +1,28 @@
+{
+  "name": "uedguider",
+  "version": "1.0.0",
+  "description": "use vue press",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "docs:build": "vuepress build docs",
+    "type": "git",
+    "url": "git+https://github.com/zhenhui/uedguider.git"
+  },
+  "author": "jakon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhenhui/uedguider/issues"
+  },
+  "homepage": "https://github.com/zhenhui/uedguider#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.0.1",
+    "vuepress": "^0.8.4"
+  }
+}
