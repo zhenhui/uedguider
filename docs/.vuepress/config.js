@@ -1,11 +1,13 @@
 module.exports = {
-  base: '/docs/',
+  base: '/guider/',
   title: '组件规范',
-  description: 'Just playing around',
+  dest: './guider',
+  description: '小菜设计规范beta',
   head: [
     ['link',{ rel: 'icon', href: `/logo.png` }]
   ],
   themeConfig: {
+    activeHeaderLinks: true,
     nav: [
       { text: '主页', link: '/' },
       { text: '设计规范', link: '/ued/' },
@@ -13,12 +15,23 @@ module.exports = {
     ],
     sidebar: {
       '/development/': [
-        '',
-        'guider'
+        {
+          title: '开发指引',
+          collapsable: true,
+          children: [
+            '',
+            'guider'
+          ]
+        }
       ],
       '/ued/':[
-        '',
-        'list'
+        {
+          title: '设计规范',
+          collapsable: false,
+          children:[
+            ''
+          ]
+        }
       ]
     }
     //   {
@@ -40,5 +53,6 @@ module.exports = {
     // ]
   },
   markdown: {
+   lineNumbers: true
   },
 }

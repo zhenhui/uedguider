@@ -3,16 +3,22 @@ title: UED规范总览
 sidebarDepth: 2
 ---
 ## 概述
-盛大撒旦
-::: tip 下载
+该规范主要用于设计同步以及优化开发进度
+```
+下载
 版本1.0,更新时间`2018-06-01`
-
 [下载](http://localhost:8080/docs/ued/)
+```
+::: tip
+这是?
 :::
 ## 颜色
-阿萨德凯撒的计划
+@import /color.md
+[include](color.md)
+### 基础颜色
+sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahsadnjsadjksahjkdhsakdhjaskhdkjdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>sjahdj<br>
 ## 栅格
-阿萨德凯撒的计划
+
 
 <style lang="sass" scoped>
 .page

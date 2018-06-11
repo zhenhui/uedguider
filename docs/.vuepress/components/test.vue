@@ -1,6 +1,6 @@
 <template lang="pug">
   .app
-    h1 测试组件,内部值为→{{btn}}
+    h1 测试组件,内部值为 → {{btn}}
 </template>
 <script>
   export default {
@@ -19,5 +19,6 @@
 </script>
 <style lang="sass" scoped>
 h1
-  color: #ff825c
+  color: rgba(2,29,51,0.30)
+  font-weight: 300
 </style>

@@ -1,4 +1,25 @@
-$accentColor = #3eaf7c
+$accentColor = #ff7043
 $textColor = #2c3e50
 $borderColor = #eaecef
 $codeBgColor = #282c34
+
+// 覆盖主要样式
+.page
+  h2, h3
+    border-bottom: none
+    font-weight: 400
+    color: $blackFont_7
+
+  .content:not(.custom)
+    max-width: 100%
+    margin: 0 0 0 0
+    p
+      color: $blackFont_7
+
+
+    /*代码*/
+
+
+.sidebar
+  border-right: none!important
+
